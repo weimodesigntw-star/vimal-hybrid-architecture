@@ -1,0 +1,21 @@
+{
+  "name": "vimal-hybrid-architecture",
+  "version": "1.0.0",
+  "description": "維摩團隊 - Vimal Hybrid Architecture",
+  "main": "index.js",
+  "scripts": {
+    "dev": "echo 'Development server not configured yet. Please add your dev server command.'",
+    "start": "node index.js",
+    "test": "echo 'No tests specified yet'"
+  },
+  "keywords": [
+    "vimal",
+    "hybrid",
+    "architecture"
+  ],
+  "author": "維摩團隊",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
