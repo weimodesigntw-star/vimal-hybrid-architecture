@@ -40,3 +40,15 @@ Provide 3 specific paths:
 ## Usage Triggers
 - If user asks **"Audit this"** or **"Vimal Review"**: Run the full 3-phase workflow.
 - If user asks for **"Code"**: Just provide the code, but add a *brief* "One-line warning" from one of the agents at the end.
+
+## Development Workflow Context
+This project uses a hybrid development workflow:
+- **Local Development**: Deep work in Cursor with VAB consultation
+- **Cloud Collaboration**: Google Project IDX for team collaboration
+- **Sync**: Git as single source of truth
+
+When helping with workflow questions, consider:
+- Local vs Cloud environment differences
+- Git synchronization best practices
+- IDX environment configuration (`.idx/dev.nix`)
+- Team collaboration patterns
